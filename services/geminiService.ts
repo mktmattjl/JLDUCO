@@ -3,11 +3,8 @@ import { ADMIN_NOTES } from '../adminNotes';
 
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
-if (!API_KEY) {
-  throw new Error("VITE_GEMINI_API_KEY is not set in environment variables. Please set it to use the Gemini API.");
-}
-
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+// Only initialize AI if API key is available
+const ai = API_KEY ? new GoogleGenAI({ apiKey: API_KEY }) : null;
 const model = "gemini-2.5-flash";
 
 // In-memory cache to store fetched descriptions.
@@ -51,7 +48,13 @@ export const generateItemDescription = async (itemName: string, category: string
     if (descriptionCache.has(cacheKey)) {
         return descriptionCache.get(cacheKey)!;
     }
-    
+
+    // If no API key is set, return empty string
+    if (!ai) {
+        console.warn("Gemini API key not set. Descriptions will not be generated.");
+        return "";
+    }
+
     // If not in cache, fetch from the API.
     try {
         const prompt = `Generate a single, evocative sentence (max 20 words) for a luxury French travel experience.
