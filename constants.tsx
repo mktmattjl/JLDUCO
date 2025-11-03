@@ -19,13 +19,13 @@ const REGIONS = [
 
 const THEMES = [
   { id: 't1', name: 'Adrenaline', icon: <img src="/Images/picto/Themes/Adrenaline.png?v=2" alt="Adrenaline" className="w-full h-full object-contain" /> },
-  { id: 't2', name: 'Alpine adventures', icon: <img src="/Images/picto/Themes/Alpine Adventures.png?v=2" alt="Alpine Adventures" className="w-full h-full object-contain" /> },
-  { id: 't3', name: 'Art & culture', icon: <img src="/Images/picto/Themes/Art and Culture.png?v=2" alt="Art and Culture" className="w-full h-full object-contain" /> },
+  { id: 't2', name: 'Alpine adventures', icon: <img src="/Images/picto/Themes/Alpine Adventures2.png?v=3" alt="Alpine Adventures" className="w-full h-full object-contain" /> },
+  { id: 't3', name: 'Art & culture', icon: <img src="/Images/picto/Themes/Art and culture2.png?v=3" alt="Art and Culture" className="w-full h-full object-contain" /> },
   { id: 't4', name: 'Craftsmanship', icon: <img src="/Images/picto/Themes/Craftsmanship.png?v=2" alt="Craftsmanship" className="w-full h-full object-contain" /> },
   { id: 't5', name: 'Fashion', icon: <img src="/Images/picto/Themes/Fashion.png?v=2" alt="Fashion" className="w-full h-full object-contain" /> },
   { id: 't6', name: 'Gastronomy', icon: <img src="/Images/picto/Themes/Gastronomy.png?v=2" alt="Gastronomy" className="w-full h-full object-contain" /> },
   { id: 't7', name: 'Historic footsteps', icon: <img src="/Images/picto/Themes/Historic Footsteps.png?v=2" alt="Historic Footsteps" className="w-full h-full object-contain" /> },
-  { id: 't8', name: 'Quiet sanctuaries', icon: <img src="/Images/picto/Themes/Quiet Sanctuaries.png?v=2" alt="Quiet Sanctuaries" className="w-full h-full object-contain" /> },
+  { id: 't8', name: 'Quiet sanctuaries', icon: <img src="/Images/picto/Themes/Quiet Sanctuaries2.png?v=3" alt="Quiet Sanctuaries" className="w-full h-full object-contain" /> },
   { id: 't9', name: 'Romantic escapes', icon: <img src="/Images/picto/Themes/Romantic Escapes.png?v=2" alt="Romantic Escapes" className="w-full h-full object-contain" /> },
   { id: 't10', name: 'Wellness', icon: <img src="/Images/picto/Themes/Spa and Wellness.png?v=2" alt="Spa and Wellness" className="w-full h-full object-contain" /> },
   { id: 't11', name: 'Wine & Champagne', icon: <img src="/Images/picto/Themes/Wine .png?v=2" alt="Wine" className="w-full h-full object-contain" /> },
