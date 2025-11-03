@@ -1,0 +1,5 @@
+{
+  "name": "French Journey Selector",
+  "description": "An interactive luxury travel app that guides users through selecting French travel destinations, themes, or feelings. Features an admin mode with real-time notes for travel agents and lead capture functionality.",
+  "requestFramePermissions": []
+}
