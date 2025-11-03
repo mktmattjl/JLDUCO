@@ -6,7 +6,7 @@ export const MoodButtonIcon: React.FC = () => (
         alt="Mood"
         className="group-hover:opacity-80 transition-opacity"
         style={{
-            height: '200px',
+            height: '120px',
             width: 'auto',
             imageRendering: '-webkit-optimize-contrast',
             WebkitFontSmoothing: 'antialiased'
