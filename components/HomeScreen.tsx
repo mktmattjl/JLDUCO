@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useImagePreloader, getAllImagePaths } from '../hooks/useImagePreloader';
 
 interface HomeScreenProps {
   onStart: () => void;
@@ -7,6 +8,9 @@ interface HomeScreenProps {
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ onStart, onToggleAdmin }) => {
   const [adminClickCount, setAdminClickCount] = useState(0);
+
+  // Preload all images in the background when on home screen
+  useImagePreloader(getAllImagePaths());
 
   const handleSecretAdminClick = () => {
     const newCount = adminClickCount + 1;
