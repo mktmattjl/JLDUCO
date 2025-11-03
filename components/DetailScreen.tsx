@@ -80,7 +80,7 @@ const DetailScreen: React.FC<DetailScreenProps> = ({ item, onBack }) => {
     if (fileName) {
       // URL encode the filename to handle spaces and special characters
       const encodedFileName = encodeURIComponent(fileName).replace(/%2F/g, '/');
-      return `/Images/Clicked/${folder}/${encodedFileName}`;
+      return `/Images/${folder}/${encodedFileName}`;
     }
 
     // Fallback to default
