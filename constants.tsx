@@ -35,7 +35,7 @@ const THEMES = [
 const MOODS = [
   { id: 'f1', name: 'The Night You Felt Famous', icon: <img src="/Images/picto/Moods/The night you felt famous.png" alt="The night you felt famous" className="w-full h-full object-contain" /> },
   { id: 'f2', name: 'The Taste You\'ll Chase Forever', icon: <img src="/Images/picto/Moods/The taste you'll chase forever.png" alt="The taste you'll chase forever" className="w-full h-full object-contain" /> },
-  { id: 'f3', name: 'The Stranger Who Knew Your Name', icon: <img src="/Images/picto/Moods/The stranger who knew your name.png" alt="The stranger who knew your name" className="w-full h-full object-contain" /> },
+  { id: 'f3', name: 'The Place Who Knew Your Name', icon: <img src="/Images/picto/Moods/The stranger who knew your name.png" alt="The place who knew your name" className="w-full h-full object-contain" /> },
   { id: 'f4', name: 'The Sun That Stayed Up Too Late', icon: <img src="/Images/picto/Moods/The sun that stayed up to o late.png" alt="The sun that stayed up too late" className="w-full h-full object-contain" /> },
   { id: 'f5', name: 'The Vineyard That Shared Its Secret', icon: <img src="/Images/picto/Moods/The vineyard that shared its secrets.png" alt="The vineyard that shared its secrets" className="w-full h-full object-contain" /> },
   { id: 'f6', name: 'The Moment the Music Found You', icon: <img src="/Images/picto/Moods/The moment the music found you.png" alt="The moment the music found you" className="w-full h-full object-contain" /> },
