@@ -119,10 +119,10 @@ const RouletteOverlay: React.FC<RouletteOverlayProps> = ({ items, onComplete }) 
         const fileName = nameMapping[itemName];
         if (fileName) {
             const encodedFileName = encodeURIComponent(fileName).replace(/%2F/g, '/');
-            return `/Images/Clicked/${folder}/${encodedFileName}`;
+            return `/Images/${folder}/${encodedFileName}`;
         }
 
-        return '/Images/Clicked/Selection.png';
+        return '/Images/Selection.png';
     };
 
     const imageUrl = getImageUrl(currentItem);
