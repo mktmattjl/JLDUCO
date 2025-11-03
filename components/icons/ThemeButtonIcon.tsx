@@ -6,7 +6,7 @@ export const ThemeButtonIcon: React.FC = () => (
         alt="Themes"
         className="group-hover:opacity-80 transition-opacity"
         style={{
-            height: '120px',
+            height: '150px',
             width: 'auto',
             imageRendering: '-webkit-optimize-contrast',
             WebkitFontSmoothing: 'antialiased'
