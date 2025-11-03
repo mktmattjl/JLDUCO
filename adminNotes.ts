@@ -101,13 +101,11 @@ export const ADMIN_NOTES: AdminNotes = {
       "ACI Blue Team 2024 - Perfume: Italian family of 5 (2 parents, 3 teenagers) staying in Provence for one week. Privatized workshop at Rose & Marius, a Maison de Haute Parfumerie in Aix en Provence.",
       "Brown 2023 - Perfume: Privatized Guerlain workshop in Paris",
       "Cahalan 2025 - Floral art: \"Chenonceau - Meilleur Ouvrier de France Meeting with the Botanical Director of the castle or the master florist. Discovery of the extraordinary work made around the flowers and gardens.\"",
-      "Volaris 2023 - Jewels and watches: Prior to truffle dinner at Castille: exclusive visit of Maison Breguet to top VIP guests, 20 to 25 persons"
-    ],
-    "Basque Country traditions": [
-        "2015 - Bergara family, the renown Makhila manufacturer",
-        "2015 - Sole French Chistera manufacturer (Basque pelota)",
-        "2015 - Espadrilles",
-        "2015 - Basque fabrics Lartigues"
+      "Volaris 2023 - Jewels and watches: Prior to truffle dinner at Castille: exclusive visit of Maison Breguet to top VIP guests, 20 to 25 persons",
+      "2015 - Basque Country traditions: Bergara family, the renown Makhila manufacturer",
+      "2015 - Basque Country traditions: Sole French Chistera manufacturer (Basque pelota)",
+      "2015 - Basque Country traditions: Espadrilles",
+      "2015 - Basque Country traditions: Basque fabrics Lartigues"
     ],
     "Fashion": [
       "Brown 2023 - Museums and Galleries: Galerie Dior, Fondation Louis Vuitton, Palais Galliera cf. profil Stefano dans dossier Finder",
