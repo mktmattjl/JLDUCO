@@ -5,6 +5,11 @@ export const ThemeButtonIcon: React.FC = () => (
         src="/Images/Buttons/Themes2.png"
         alt="Themes"
         className="group-hover:opacity-80 transition-opacity"
-        style={{ height: '280px', width: 'auto' }}
+        style={{
+            height: '200px',
+            width: 'auto',
+            imageRendering: '-webkit-optimize-contrast',
+            WebkitFontSmoothing: 'antialiased'
+        }}
     />
 );

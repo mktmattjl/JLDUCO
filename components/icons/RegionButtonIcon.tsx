@@ -5,6 +5,11 @@ export const RegionButtonIcon: React.FC = () => (
         src="/Images/Buttons/Region2.png"
         alt="Regions"
         className="group-hover:opacity-80 transition-opacity"
-        style={{ height: '280px', width: 'auto' }}
+        style={{
+            height: '200px',
+            width: 'auto',
+            imageRendering: '-webkit-optimize-contrast',
+            WebkitFontSmoothing: 'antialiased'
+        }}
     />
 );
