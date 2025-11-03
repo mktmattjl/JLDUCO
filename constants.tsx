@@ -5,16 +5,16 @@ import { PlaceholderIcon } from './components/icons/PlaceholderIcon';
 const REGIONS = [
   { id: 'r1', name: 'Paris', icon: <img src="/Images/picto/Regions/Paris.png?v=2" alt="Paris" className="w-full h-full object-contain" /> },
   { id: 'r2', name: 'French Riviera & Provence', icon: <img src="/Images/picto/Regions/Provence.png?v=2" alt="Provence" className="w-full h-full object-contain" /> },
-  { id: 'r3', name: 'Loire Valley', icon: <img src="/Images/picto/Regions/Loire Valley.png?v=2" alt="Loire Valley" className="w-full h-full object-contain" /> },
+  { id: 'r3', name: 'Loire Valley', icon: <img src="/Images/picto/Regions/Loire Valley2.png?v=3" alt="Loire Valley" className="w-full h-full object-contain" /> },
   { id: 'r4', name: 'Bordeaux Region', icon: <img src="/Images/picto/Regions/Bordeaux.png?v=2" alt="Bordeaux" className="w-full h-full object-contain" /> },
-  { id: 'r5', name: 'Burgundy', icon: <img src="/Images/picto/Regions/Burgundy.png?v=2" alt="Burgundy" className="w-full h-full object-contain" /> },
-  { id: 'r6', name: 'Alsace', icon: <img src="/Images/picto/Regions/Alsace.png?v=2" alt="Alsace" className="w-full h-full object-contain" /> },
-  { id: 'r7', name: 'Champagne', icon: <img src="/Images/picto/Regions/Champagne.png?v=2" alt="Champagne" className="w-full h-full object-contain" /> },
-  { id: 'r8', name: 'Normandy & Brittany', icon: <img src="/Images/picto/Regions/Normandy.png?v=2" alt="Normandy" className="w-full h-full object-contain" /> },
+  { id: 'r5', name: 'Burgundy', icon: <img src="/Images/picto/Regions/Burgundy2.png?v=3" alt="Burgundy" className="w-full h-full object-contain" /> },
+  { id: 'r6', name: 'Alsace', icon: <img src="/Images/picto/Regions/Alsace2.png?v=3" alt="Alsace" className="w-full h-full object-contain" /> },
+  { id: 'r7', name: 'Champagne', icon: <img src="/Images/picto/Regions/Champagne2.png?v=3" alt="Champagne" className="w-full h-full object-contain" /> },
+  { id: 'r8', name: 'Normandy & Brittany', icon: <img src="/Images/picto/Regions/Normandy2.png?v=3" alt="Normandy" className="w-full h-full object-contain" /> },
   { id: 'r9', name: 'Rhone Valley / Lyon', icon: <img src="/Images/picto/Regions/Lyon.png?v=2" alt="Lyon" className="w-full h-full object-contain" /> },
   { id: 'r10', name: 'Dordogne', icon: <img src="/Images/picto/Regions/Dordogne.png?v=2" alt="Dordogne" className="w-full h-full object-contain" /> },
-  { id: 'r11', name: 'French Alps', icon: <img src="/Images/picto/Regions/French_Alps.png?v=2" alt="French Alps" className="w-full h-full object-contain" /> },
-  { id: 'r12', name: 'Corsica', icon: <img src="/Images/picto/Regions/Corsica.png?v=2" alt="Corsica" className="w-full h-full object-contain" /> },
+  { id: 'r11', name: 'French Alps', icon: <img src="/Images/picto/Regions/French_Alps2.png?v=3" alt="French Alps" className="w-full h-full object-contain" /> },
+  { id: 'r12', name: 'Corsica', icon: <img src="/Images/picto/Regions/Corsica2.png?v=3" alt="Corsica" className="w-full h-full object-contain" /> },
 ];
 
 const THEMES = [
