@@ -45,7 +45,7 @@ export const getAllImagePaths = (): string[] => {
 
   regions.forEach(fileName => {
     const encodedFileName = encodeURIComponent(fileName).replace(/%2F/g, '/');
-    imagePaths.push(`/Images/REGIONS/${encodedFileName}`);
+    imagePaths.push(`/Images/Clicked/REGIONS/${encodedFileName}`);
   });
 
   // Theme images
@@ -66,7 +66,7 @@ export const getAllImagePaths = (): string[] => {
 
   themes.forEach(fileName => {
     const encodedFileName = encodeURIComponent(fileName).replace(/%2F/g, '/');
-    imagePaths.push(`/Images/THEME/${encodedFileName}`);
+    imagePaths.push(`/Images/Clicked/THEME/${encodedFileName}`);
   });
 
   // Mood images
@@ -87,7 +87,7 @@ export const getAllImagePaths = (): string[] => {
 
   moods.forEach(fileName => {
     const encodedFileName = encodeURIComponent(fileName).replace(/%2F/g, '/');
-    imagePaths.push(`/Images/MOOD/${encodedFileName}`);
+    imagePaths.push(`/Images/Clicked/MOOD/${encodedFileName}`);
   });
 
   // Add category screen background images
