@@ -41,9 +41,11 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onStart, onToggleAdmin }) => {
         backgroundImage: 'url(/Images/Home.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        imageRendering: 'high-quality',
+        imageRendering: '-webkit-optimize-contrast',
         WebkitBackfaceVisibility: 'hidden',
-        backfaceVisibility: 'hidden'
+        backfaceVisibility: 'hidden',
+        transform: 'translateZ(0)',
+        willChange: 'transform'
       }}
     >
       <div className="absolute inset-0 bg-black/20"></div>

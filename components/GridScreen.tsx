@@ -27,9 +27,11 @@ const GridScreen: React.FC<GridScreenProps> = ({ category, onSelectItem, onBack,
         backgroundImage: `url(${getBackgroundImage()})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        imageRendering: 'high-quality',
+        imageRendering: '-webkit-optimize-contrast',
         WebkitBackfaceVisibility: 'hidden',
-        backfaceVisibility: 'hidden'
+        backfaceVisibility: 'hidden',
+        transform: 'translateZ(0)',
+        willChange: 'transform'
       }}
     >
 

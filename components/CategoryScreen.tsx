@@ -31,9 +31,11 @@ const CategoryScreen: React.FC<CategoryScreenProps> = ({ categories, onSelect, o
         backgroundImage: 'url(/Images/Clicked/Selection.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        imageRendering: 'high-quality',
+        imageRendering: '-webkit-optimize-contrast',
         WebkitBackfaceVisibility: 'hidden',
-        backfaceVisibility: 'hidden'
+        backfaceVisibility: 'hidden',
+        transform: 'translateZ(0)',
+        willChange: 'transform'
       }}
     >
 
