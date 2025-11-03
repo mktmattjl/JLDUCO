@@ -13,10 +13,10 @@ const GridScreen: React.FC<GridScreenProps> = ({ category, onSelectItem, onBack,
   // Determine the background image based on the category
   const getBackgroundImage = () => {
     switch(category.name) {
-      case 'Regions': return '/Images/Clicked/Regions.png';
-      case 'Themes': return '/Images/Clicked/Themes.png';
-      case 'Mood': return '/Images/Clicked/Moods.png';
-      default: return '/Images/Clicked/Regions.png';
+      case 'Regions': return '/Images/Clicked/Regions2.png';
+      case 'Themes': return '/Images/Clicked/Themes2.png';
+      case 'Mood': return '/Images/Clicked/Moods2.png';
+      default: return '/Images/Clicked/Regions2.png';
     }
   };
 
